@@ -1,0 +1,18 @@
+STUDI KASUS: HPC DAN KUALITAS UDARA
+Prediksi Kualitas Udara Berdasarkan Data Kualitas Udara dan Faktor Meteorologi
+
+DATASET: SINTETIS UNTUK DEMONSTRASI TUGAS
+
+HASIL EVALUASI
+MAE  : 3.2640
+RMSE : 4.1547
+R2   : 0.6921
+
+FEATURE IMPORTANCE
+          fitur  importance
+           pm25    0.584474
+           pm10    0.198002
+    curah_hujan    0.078623
+kecepatan_angin    0.048939
+           suhu    0.046033
+     kelembapan    0.043929
