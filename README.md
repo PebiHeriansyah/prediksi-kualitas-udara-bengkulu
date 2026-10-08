@@ -91,11 +91,11 @@ git init
 git add .
 git commit -m "Implementasi studi kasus HPC dan analisis data AI"
 git branch -M main
-git remote add origin https://github.com/USERNAME/prediksi-kualitas-udara-bengkulu.git
+git remote add origin https://github.com/PebiHeriansyah/prediksi-kualitas-udara-bengkulu.git
 git push -u origin main
 ```
 
-> Ganti `USERNAME` dengan username GitHub Anda.
+> Ganti `PebiHeriansyah` dengan username GitHub Anda.
 
 ## Catatan
 
