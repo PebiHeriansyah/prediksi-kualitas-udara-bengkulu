@@ -26,18 +26,6 @@ Studi kasus menekankan pentingnya **data understanding**, **data preparation**, 
 
 📂 Folder: [`analisis-data-dan-ai/`](analisis-data-dan-ai/)
 
-## Hubungan dengan Skripsi
-
-Kedua studi kasus di atas merupakan implementasi awal yang berkaitan dengan rencana skripsi:
-
-**"PEMODELAN PREDIKTIF KUALITAS UDARA MENGGUNAKAN RANDOM FOREST DAN ADAPTIVE NEURO-FUZZY INFERENCE SYSTEM DENGAN OPTIMASI PARTICLE SWARM OPTIMIZATION (Studi Kasus: Provinsi Bengkulu)"**
-
-Dalam penelitian skripsi, alur lengkap yang direncanakan adalah:
-
-> Data kualitas udara dan meteorologi → Preprocessing → Feature Engineering → Random Forest → Feature Selection → ANFIS → Optimasi PSO → Prediksi ISPU → Evaluasi
-
-Repository ini merupakan **implementasi studi kasus pembelajaran** dan bukan keseluruhan implementasi skripsi. ANFIS dan PSO belum diimplementasikan pada repository ini.
-
 ## Teknologi
 
 - **Python**
