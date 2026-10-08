@@ -82,20 +82,6 @@ python prediksi_ispu_lag.py
 
 Hasil evaluasi masing-masing studi kasus akan disimpan pada `hasil/hasil_evaluasi.txt` di dalam folder yang bersangkutan.
 
-## GitHub
-
-Cara mengunggah repository ke GitHub:
-
-```bash
-git init
-git add .
-git commit -m "Implementasi studi kasus HPC dan analisis data AI"
-git branch -M main
-git remote add origin https://github.com/PebiHeriansyah/prediksi-kualitas-udara-bengkulu.git
-git push -u origin main
-```
-
-> Ganti `PebiHeriansyah` dengan username GitHub Anda.
 
 ## Catatan
 
