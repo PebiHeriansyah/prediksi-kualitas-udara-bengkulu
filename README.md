@@ -1,6 +1,6 @@
 # Prediksi Kualitas Udara Bengkulu
 
-Repository ini berisi dua implementasi studi kasus yang berasal dari dua materi perkuliahan dan memiliki keterkaitan dengan rencana penelitian prediksi kualitas udara.
+Repository ini berisi implementasi dari berbagai pendekatan komputasi dan analisis data untuk memodelkan dan memprediksi kualitas udara.
 
 ## Struktur Repository
 
@@ -10,19 +10,15 @@ prediksi-kualitas-udara-bengkulu/
 └── analisis-data-dan-ai/
 ```
 
-## Studi Kasus 1 — HPC dan Kualitas Udara
+## HPC dan Kualitas Udara
 
-Implementasi dari materi **"Bridging Global Infrastructure to Address Local Challenge in High Performance Computing"**.
-
-Studi kasus mengangkat permasalahan kualitas udara sebagai contoh permasalahan lokal yang dapat diselesaikan dengan pendekatan komputasi dan pemodelan. Implementasi menggunakan **Random Forest** untuk memprediksi nilai **ISPU** berdasarkan data kualitas udara dan faktor meteorologi, serta menganalisis **feature importance** untuk melihat kontribusi masing-masing variabel.
+Bagian ini mengangkat permasalahan kualitas udara sebagai contoh permasalahan lokal yang dapat diselesaikan dengan pendekatan komputasi kinerja tinggi (High Performance Computing). Implementasi menggunakan **Random Forest** untuk memprediksi nilai **ISPU** berdasarkan data kualitas udara dan faktor meteorologi, serta menganalisis **feature importance** untuk melihat kontribusi masing-masing variabel secara efisien.
 
 📂 Folder: [`hpc-dan-kualitas-udara/`](hpc-dan-kualitas-udara/)
 
-## Studi Kasus 2 — Analisis Data dan AI
+## Analisis Data dan AI
 
-Implementasi dari materi **"Make Sense of Data with Analysis and AI"**.
-
-Studi kasus menekankan pentingnya **data understanding**, **data preparation**, dan **feature engineering** dalam membangun model prediktif. Fitur historis (**lag**) dibentuk dari nilai ISPU sebelumnya untuk digunakan sebagai input model **predictive analytics**. Model **Random Forest** digunakan untuk memperkirakan nilai ISPU pada periode berikutnya dan **evaluasi** dilakukan menggunakan MAE, RMSE, dan R².
+Bagian ini menekankan pentingnya **data understanding**, **data preparation**, dan **feature engineering** dalam membangun model prediktif untuk kualitas udara. Fitur historis (**lag**) dibentuk dari nilai ISPU sebelumnya untuk digunakan sebagai input model **predictive analytics**. Model **Random Forest** digunakan untuk memperkirakan nilai ISPU pada periode berikutnya dan **evaluasi** dilakukan menggunakan MAE, RMSE, dan R².
 
 📂 Folder: [`analisis-data-dan-ai/`](analisis-data-dan-ai/)
 
@@ -52,7 +48,7 @@ Kolom dataset:
 
 ## Menjalankan Project
 
-### Studi Kasus 1 — HPC dan Kualitas Udara
+### HPC dan Kualitas Udara
 
 ```bash
 cd hpc-dan-kualitas-udara
@@ -60,7 +56,7 @@ pip install -r requirements.txt
 python prediksi_ispu_hpc.py
 ```
 
-### Studi Kasus 2 — Analisis Data dan AI
+### Analisis Data dan AI
 
 ```bash
 cd analisis-data-dan-ai
@@ -68,11 +64,11 @@ pip install -r requirements.txt
 python prediksi_ispu_lag.py
 ```
 
-Hasil evaluasi masing-masing studi kasus akan disimpan pada `hasil/hasil_evaluasi.txt` di dalam folder yang bersangkutan.
+Hasil evaluasi dari masing-masing pendekatan akan disimpan pada `hasil/hasil_evaluasi.txt` di dalam folder yang bersangkutan.
 
 
 ## Catatan
 
-- Implementasi ini dibuat sebagai studi kasus pembelajaran.
-- Dataset yang digunakan adalah dataset sintetis sehingga hasil evaluasi tidak boleh dianggap sebagai hasil penelitian kualitas udara Provinsi Bengkulu.
+- Implementasi ini dibuat sebagai bentuk pembelajaran pemodelan prediktif.
+- Dataset yang digunakan adalah dataset sintetis sehingga hasil evaluasi tidak boleh dianggap sebagai hasil penelitian observasi aktual kualitas udara Provinsi Bengkulu.
 - Jangan mengunggah dataset penelitian yang memiliki batasan publikasi.
